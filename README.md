@@ -6,8 +6,8 @@
  * @Description: In User Settings Edit
  * @FilePath: /pg-task11/project/README.md
 -->
-# Code of Multilabel Classification
-This code is heavily based on https://github.com/utterworks/fast-bert.
+# Code of semantic type detection
+This is code for multilabel semantic type detection subtask for V-NLI. Predicted labels will be used for selecting proper forms of visualization downstream.
 
 ## Prepare Dataset
 Training and validation set have been neatened to use. For inference, dataset should be organized in cvs format as training and validation set. To arrange raw data into desired one, run following script:
